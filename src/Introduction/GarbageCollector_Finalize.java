@@ -3,7 +3,7 @@ package Introduction;
 public class GarbageCollector_Finalize {
     public static void main(String[] args) {
         Class obj ;
-        for(long i = 0;i<10000000000000l;i++){
+        for(long i = 0;i<10000000000000L;i++){
             obj = new Class();
         }
     }
